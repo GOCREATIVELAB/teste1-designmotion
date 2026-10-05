@@ -1,0 +1,16 @@
+{
+  "name": "go-motion-benchmark",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node render/server.js",
+    "render": "node render.mjs",
+    "qa": "node qa/inspect.js",
+    "setup": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "playwright": "^1.55.0"
+  }
+}

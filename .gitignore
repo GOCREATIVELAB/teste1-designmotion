@@ -1,0 +1,10 @@
+node_modules/
+output/frames/
+output/stills/
+output/video.mp4
+output/contact-sheet.png
+output/ffmpeg-copy.exe
+playwright-install.log
+playwright-install.err
+ffmpeg-version.txt
+
